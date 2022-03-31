@@ -32,6 +32,11 @@ dependencies {
 
     // OAuth test properties
     testImplementation 'org.springframework.security:spring-security-test'
+
+    //mariadb
+    implementation 'org.mariadb.jdbc:mariadb-java-client:3.0.3'
+
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }
 
 tasks.named('test') {

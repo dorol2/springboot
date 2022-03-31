@@ -31,7 +31,7 @@ class PostsRepositoryTest {
         String title = "testposts";
         String content = "testcontents";
 
-        var test = postsRepository.save(PostsEntity.builder()
+        PostsEntity test = postsRepository.save(PostsEntity.builder()
                 .title(title)
                 .content(content)
                 .author("me")
